@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Open+Sans:wght@500&display=swap');
+*{
+  padding:0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style:none;
+  color:white;
+  font-family: 'Open Sans', sans-serif;
+
+}
+h3{
+  color:#1a338e;
+}
+header{
+width:100%;
+color:white;
+position:absolute;
+top:0;
+}
+header > *{
+  
+}
+
+h1{
+  padding:50px 0 0 100px;
+  font-size:medium;
+}
+.container{
+  width:100%;
+  display:flex;
+  justify-content: space-between;
+}
+.get{
+  background-color:#0d42ff;
+  padding:10px;
+  border-radius:5px;
+}
+.navbar ul{
+  display:flex;
+  gap:20px;
+  margin-right:40px;
+  padding:30px;
+  font-size:small;
+}
+.hero{
+  background-image: url("img/hero-bg.png");
+  background-size:cover;
+  background-position:center;
+  background-repeat: no-repeat;
+  height:60vh;
+}
+.herocntmain , .herocnt , .container2{
+  width:100%;
+  height:100%;
+  color:black;
+}
+.herocntmain form{
+background-color:white;
+max-width:40%;
+height:50px;
+border-radius:5px;
+text-align:center;
+display:flex;
+align-items:center;
+justify-content: space-between;
+
+}
+.indi p{
+  font-size:0.9em;
+  color:white;
+}
+.herocntmain{
+  display:grid;
+  align-items:center;
+  padding:50px 0 0 100px;
+}
+.herocntmain form input{
+  border:none;
+  margin-left:20px;
+  color:black;
+}
+.herocntmain a{
+color:#0d42ff;
+}
+.btna{
+  
+  font-size:small;
+  height:40px;
+  display:flex;
+}
+.btna button{
+  color:white;
+  background-color:#0d42ff;
+  border:0;
+  border-radius:5px;
+  padding:5px;
+}
+.btna button:hover{
+  color:white;
+  background-color:rgb(65, 133, 200);
+  cursor:pointer ;
+}
+.btna a{
+  width:70px;
+  text-align:center;
+  font-size:smaller;
+  height:100%;
+}
+.ind{
+  display:flex;
+  gap:40px;
+  font-size:0.6em;
+}
+
+p{
+  color:black;
+  font-size:0.7em;
+  font-weight:lighter;
+}
